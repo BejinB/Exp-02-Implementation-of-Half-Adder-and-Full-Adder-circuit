@@ -49,6 +49,12 @@ xor(sum,a,b);
 and(carry,a,b);
 endmodule
 #Full adder:
+module expthree(a,b,c,sum,carry);
+input a,b,c;
+output sum,carry;
+assign sum = ((a^b)^c);
+assign carry = ((a&b)|(b&c)|(c&a));
+endmodule
 
 ```
 Logic symbol & Truthtable
@@ -60,9 +66,16 @@ RTL realization
 #Half adder:
 ![image](https://user-images.githubusercontent.com/118367518/209817375-7c0f2c3f-487b-4cd9-b521-14d56633b461.png)
 #Full adder:
+![image](https://user-images.githubusercontent.com/118367518/209828388-e3a2bba2-160e-42c0-88e9-12bc702d449e.png)
+
 ### TIMING DIAGRAM
+![image](https://user-images.githubusercontent.com/118367518/209840106-36a27a5a-9b75-4a0e-beb1-4aada47164c7.png)
 
 
 ### TRUTH TABLE 
+![image](https://user-images.githubusercontent.com/118367518/209840762-235bf7f0-b9ce-4b8f-8ce0-243eb4f996c4.png)
+
 
 ### Result:
+ Thus the half adder and full adder are studied and the truth table for different logic gates are verified.
+
