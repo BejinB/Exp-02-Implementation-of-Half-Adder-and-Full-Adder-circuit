@@ -36,19 +36,22 @@ Switch ON the main switch
 If the output is 1, then the led glows.
 ### 
 
-```
+
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 Developed by: Bejin.B
 RegisterNumber:22001908
 Program:
-#Half adder :
+## Half adder :
+```
 module exptwo(a,b,sum,carry);
 input a,b;
 output sum,carry;
 xor(sum,a,b);
 and(carry,a,b);
 endmodule
-#Full adder:
+```
+## Full adder:
+```
 module expthree(a,b,c,sum,carry);
 input a,b,c;
 output sum,carry;
@@ -63,14 +66,14 @@ RTL realization
 
 ### Output:
 ### RTL
-#Half adder:
+## Half adder:
 ![image](https://user-images.githubusercontent.com/118367518/209817375-7c0f2c3f-487b-4cd9-b521-14d56633b461.png)
 ### TIMING DIAGRAM
 ![image](https://user-images.githubusercontent.com/118367518/211183755-a9da6af3-528b-405c-861e-f1a670587c19.png)
 ### TRUTH TABLE 
 ![image](https://user-images.githubusercontent.com/118367518/211183774-090878fe-909e-4b20-9934-4a7fae6ec831.png)
 
-#Full adder:
+## Full adder:
 ![image](https://user-images.githubusercontent.com/118367518/209828388-e3a2bba2-160e-42c0-88e9-12bc702d449e.png)
 ### TIMING DIAGRAM
 ![image](https://user-images.githubusercontent.com/118367518/211183778-82542afa-4efb-4a09-924c-beefa62f1481.png)
