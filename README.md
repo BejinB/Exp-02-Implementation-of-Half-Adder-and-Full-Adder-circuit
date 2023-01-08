@@ -60,9 +60,6 @@ assign carry = ((a&b)|(b&c)|(c&a));
 endmodule
 
 ```
-Logic symbol & Truthtable
-RTL realization
-![logic](https://user-images.githubusercontent.com/118367518/209817709-03ee8ddb-34dc-4b93-bfa7-773d253a8823.jpg)
 
 ### Output:
 ### RTL
